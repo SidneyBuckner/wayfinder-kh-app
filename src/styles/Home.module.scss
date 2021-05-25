@@ -1,3 +1,5 @@
+$primary-color: darkred;
+$background-color: aliceblue;
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -34,7 +36,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: $primary-color;
   text-decoration: none;
 }
 
@@ -53,6 +55,7 @@
 .title,
 .description {
   text-align: center;
+  color: $primary-color;
 }
 
 .description {
@@ -61,7 +64,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: $background-color;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -93,8 +96,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: $primary-color;
+  border-color: $primary-color;
 }
 
 .card h2 {
